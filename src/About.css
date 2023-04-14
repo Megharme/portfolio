@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap');
+
+.about{
+    margin: auto;
+    width: 50%;
+    padding-top: 40px;
+    font-size: large;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.about__section1 > h3 {
+    text-align: center;
+}
+
+.about__line{
+    margin: 25px auto;
+    border-top: dotted 7px;
+    border-bottom: 0;
+    width: 60px;
+    color: #9fcaba; 
+}
+
+p{
+    word-spacing: 3px;
+}

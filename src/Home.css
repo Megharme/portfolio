@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Mukta:wght@300&display=swap');
+.home{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: #9fcaba;
+    padding: 2% 5% 0 5%;
+    mask-image: linear-gradient(to left, rgba(0, 0, 
+    0, 1),rgba(0, 0, 0, 0.7));
+}
+
+.home__box1{
+    width: 70%;
+    margin:5% auto auto 22%;
+    height: 50%;
+}
+
+.home__box2{
+    margin-bottom: 0;
+    margin-right: 17%;
+    
+}
+
+.home__name, .home__salut{
+    font-size: large;
+    font-family: 'Satisfy', cursive;
+}
+
+.home__name{
+    font-size: xx-large;
+    line-height: 8%;
+}
+
+.home__prof{
+    margin: 5% 0;
+    font-family: 'Mukta', sans-serif;
+    font-size: large;
+}
+
+.home__pic{
+    z-index: 30px;
+    object-fit: contain;
+    float: right;
+    /* background:linear-gradient(90deg,rgb(69, 100, 100) 50%, #FFFF 50%); */
+    height: 400px;
+    margin: 0;
+}
+
+button{
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10%;
+    font-family: 'Cinzel', serif;
+}
+
+button:hover{
+    font-size: medium;
+    box-shadow: 3px 5px;
+}
+
+@media (max-width:939px){
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    .home__box1{
+        margin: auto;
+        text-align: center;
+    }
+    .home__box2{
+        margin: auto;
+    }
+    .home__pic{
+        object-fit: contain;
+        height: 300px;
+        max-width: 300px;
+    }
+    .home__prof{
+        margin: 2.5% auto;
+    }
+}

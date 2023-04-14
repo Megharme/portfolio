@@ -1,0 +1,33 @@
+.contact{
+    background-color: #9fcaba;
+    padding: 50px;
+}
+
+.contact__wrap{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.contact__contact{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    background-color: #c2e7d9;
+    border-radius: 50%;
+}
+
+.contact__contact:hover{
+    background-color: white;
+}
+
+.contact__icon{
+    width: 100%;
+}
+
+@media (max-width:939px){
+    .contact__wrap{
+        width: 100%;
+    }
+}

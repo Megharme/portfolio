@@ -1,0 +1,58 @@
+
+.skills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0;
+    justify-content: space-evenly; 
+    margin: 20px auto; 
+    
+}
+
+.skills__bar{
+    width: 160px;
+    height: 6px;
+    border: 1px solid #9fcaba;
+    border-radius: 3px;
+}
+
+.skills__html, .skills__css, .skills__javascr, .skills__commu, .skills__problem, .skills__team{
+    height: 6px;
+    background-color: #9fcaba;
+}
+
+.skills__html{
+    width: 90%;
+}
+
+.skills__css{
+    width: 80%;
+}
+
+.skills__javascr{
+    width: 65%;
+}
+
+.skills__commu{
+    width: 100%;
+}
+
+.skills__problem{
+    width: 90%;
+}
+
+.skills__team{
+    width: 100%;
+}
+
+@media (max-width:939px){
+    .skills{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+
+    }
+    .skills__skill{
+        margin: auto;
+    }
+
+}

@@ -1,0 +1,26 @@
+@media (max-width:939px) {
+    .summary{
+       width: 100%;
+       height: 100%;
+       background-color: rgb(198, 214, 214);
+       color: black;
+       padding-bottom: 100%;
+    }
+    .summary__option{
+        padding: 3%;
+    }
+    
+}
+
+@media (min-width:940px){
+    .summary{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .summary__option:hover{
+        color: azure;
+    }
+}

@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://megharme.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -18,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy":"npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "portfolio-host -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
